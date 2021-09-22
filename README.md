@@ -1,5 +1,5 @@
-ln -s propa64.so libpropa64.so
-gcc -Wall -g call_fun.c -L/(path) -lpropa64 -lm -o propa
+Docker example use:
 
-example:
-./propa tmr 10 10
+docker build . --tag ralatsdio/propa
+
+docker run ralatsdio/propa propa tmr 10 10
